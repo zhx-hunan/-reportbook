@@ -1,0 +1,26 @@
+# Gradle / 构建产物
+.gradle/
+build/
+app/build/
+captures/
+local.properties
+*.apk
+*.aab
+
+# IDE 配置
+.idea/
+*.iml
+.DS_Store
+
+# 本项目临时文件与截图（非源码，不上传）
+*.png
+*.jpg
+*.txt
+代码讲解手册.md
+
+# 调试时 dump 的 UI 信息文件
+/ui-*.xml
+/ui2.xml
+/uia.xml
+/uid*.xml
+/uim.xml

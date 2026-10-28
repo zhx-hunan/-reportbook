@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">墨记报告</string>
+    <string name="app_slogan">把想法，写成报告</string>
+    <string name="app_desc">一个轻量、好用的本地报告记录工具</string>
+
+    <!-- Login -->
+    <string name="login_welcome">欢迎回来</string>
+    <string name="login_subtitle">登录后开始记录你的报告</string>
+    <string name="login_username_hint">用户名</string>
+    <string name="login_password_hint">密码</string>
+    <string name="login_remember">记住用户名</string>
+    <string name="login_button">登 录</string>
+    <string name="login_badge">ANDROID · 阶段作业</string>
+    <string name="login_tip">演示提示：用户名任意填写，密码不少于 4 位</string>
+    <string name="login_username_empty">请输入用户名</string>
+    <string name="login_password_empty">请输入密码</string>
+    <string name="login_password_short">密码至少需要 4 位</string>
+    <string name="login_success">欢迎回来，%1$s</string>
+
+    <!-- Main -->
+    <string name="main_greeting">%1$s，%2$s</string>
+    <string name="main_subtitle">今天也记录一点值得留下的东西吧</string>
+    <string name="main_stats_empty">还没有报告，从第一篇开始吧</string>
+    <string name="main_stats">共 %1$d 篇报告 · 最近更新 %2$s</string>
+    <string name="search_hint">搜索标题或正文</string>
+    <string name="filter_all">全部</string>
+    <string name="filter_study">学习</string>
+    <string name="filter_work">工作</string>
+    <string name="filter_life">生活</string>
+    <string name="filter_other">其他</string>
+    <string name="result_count">共 %1$d 篇报告</string>
+    <string name="result_count_filtered">筛选出 %1$d 篇报告</string>
+    <string name="empty_title">还没有报告</string>
+    <string name="empty_desc">点击右下角的 + 按钮，记录你的第一篇报告</string>
+    <string name="empty_search_title">没有找到相关报告</string>
+    <string name="empty_search_desc">换个关键词或分类再试试</string>
+    <string name="add_report">新建报告</string>
+    <string name="menu_about">关于应用</string>
+    <string name="menu_logout">退出登录</string>
+    <string name="logout_title">退出登录</string>
+    <string name="logout_message">确定要退出当前账号吗？</string>
+    <string name="logout_confirm">退出</string>
+    <string name="logout_done">已退出登录</string>
+    <string name="delete_title">删除这篇报告？</string>
+    <string name="delete_message">「%1$s」删除后将无法恢复。</string>
+    <string name="delete_confirm">删除</string>
+    <string name="delete_done">已删除「%1$s」</string>
+    <string name="cancel">取消</string>
+
+    <!-- Edit -->
+    <string name="new_report">新建报告</string>
+    <string name="edit_report">编辑报告</string>
+    <string name="report_info_label">报告信息</string>
+    <string name="report_title_hint">报告标题</string>
+    <string name="report_category_hint">报告分类</string>
+    <string name="report_content_hint">正文内容</string>
+    <string name="report_content_helper">支持多行输入，最多 5000 字</string>
+    <string name="save_report">保存报告</string>
+    <string name="save_success">报告已保存</string>
+    <string name="title_empty">请填写报告标题</string>
+    <string name="content_empty">请填写报告正文</string>
+
+    <!-- Detail -->
+    <string name="report_detail">报告详情</string>
+    <string name="detail_updated">更新于 %1$s</string>
+    <string name="detail_created">创建于 %1$s</string>
+    <string name="detail_edit">编辑</string>
+    <string name="detail_share">分享</string>
+    <string name="share_chooser">分享报告</string>
+    <string name="share_footer">—— 来自「墨记报告」</string>
+    <string name="report_not_found">报告不存在或已被删除</string>
+    <string name="menu_share">分享</string>
+    <string name="menu_delete">删除</string>
+
+    <!-- About -->
+    <string name="about_title">关于应用</string>
+    <string name="about_version">版本 %1$s</string>
+    <string name="about_intro">「墨记报告」是一款用于记录学习、工作与生活报告的本地应用。界面简洁，数据保存在手机本地，打开即可书写。</string>
+    <string name="about_features_title">功能介绍</string>
+    <string name="about_features">· 分类记录：学习、工作、生活、其他\n· 快速检索：按标题或正文搜索\n· 分类筛选：一键查看同类报告\n· 详情查看：编辑、分享、删除\n· 本地存储：无需联网，隐私安全</string>
+    <string name="about_tech_title">技术要点</string>
+    <string name="about_tech">· Activity 页面跳转与 Intent 数据传递\n· RecyclerView 列表展示与事件处理\n· SQLite（SQLiteOpenHelper）数据持久化\n· SharedPreferences 保存登录信息\n· Material Design 3 组件与主题\n· 沉浸式状态栏与窗口 Insets 适配</string>
+    <string name="about_usage_title">使用说明</string>
+    <string name="about_usage">1. 在登录页输入用户名与密码进入主页\n2. 点击右下角 + 新建一篇报告\n3. 选择分类，填写标题与正文后保存\n4. 点击列表项查看详情，可编辑或分享\n5. 长按列表项可快速删除报告</string>
+    <string name="about_course_title">关于本作业</string>
+    <string name="about_course">本应用为《Android 移动开发基础案例教程》课程阶段作业，综合运用了 Activity、RecyclerView、SQLite、SharedPreferences、Intent 与 Material Design 等基础知识点。</string>
+    <string name="about_footer">© 2026 墨记报告 · 课程阶段作业</string>
+    <string name="about_made_with">Made with Java &amp; Android</string>
+
+    <!-- Greeting & dates -->
+    <string name="greeting_dawn">凌晨好</string>
+    <string name="greeting_morning">早上好</string>
+    <string name="greeting_forenoon">上午好</string>
+    <string name="greeting_noon">中午好</string>
+    <string name="greeting_afternoon">下午好</string>
+    <string name="greeting_evening">晚上好</string>
+    <string name="date_today">今天 %1$s</string>
+    <string name="date_yesterday">昨天 %1$s</string>
+
+    <!-- Common -->
+    <string name="back">返回</string>
+    <string name="search">搜索</string>
+    <string name="avatar">用户头像</string>
+    <string name="default_username">同学</string>
+</resources>

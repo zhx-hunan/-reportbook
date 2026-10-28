@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Brand colors -->
+    <color name="primary">#355C7D</color>
+    <color name="primary_dark">#2A4A66</color>
+    <color name="primary_light">#5C7FA3</color>
+    <color name="on_primary">#FFFFFF</color>
+    <color name="secondary">#E07A5F</color>
+    <color name="on_secondary">#FFFFFF</color>
+    <color name="secondary_container">#FBE4DC</color>
+    <color name="on_secondary_container">#6B2E1E</color>
+
+    <!-- Neutrals -->
+    <color name="background">#F5F6F8</color>
+    <color name="surface">#FFFFFF</color>
+    <color name="surface_variant">#EEF1F4</color>
+    <color name="on_surface">#1F2933</color>
+    <color name="on_surface_variant">#6B7280</color>
+    <color name="outline">#D7DCE2</color>
+    <color name="error">#B3261E</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="white_70">#B3FFFFFF</color>
+    <color name="white_12">#1FFFFFFF</color>
+
+    <!-- Category colors -->
+    <color name="cat_study">#3B82F6</color>
+    <color name="cat_study_bg">#E8F0FE</color>
+    <color name="cat_work">#D97706</color>
+    <color name="cat_work_bg">#FEF3C7</color>
+    <color name="cat_life">#0E9F6E</color>
+    <color name="cat_life_bg">#E3F7EF</color>
+    <color name="cat_other">#6B7280</color>
+    <color name="cat_other_bg">#F0F1F3</color>
+</resources>
